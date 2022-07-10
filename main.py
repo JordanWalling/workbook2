@@ -1,8 +1,10 @@
+import time
 from bmi import calculate_bmi
+from stopwatch import print_start_time
 from calorie_needs import calculate_calorie_needs
 from weight_converter import convert_weight
 from welcome_message import greet_message
-from stopwatch import print_time
+
 
 greet_message()
 print('Welcome to the Health App!')
@@ -16,6 +18,13 @@ elif prompt == "2":
 elif prompt == "3":
     calculate_calorie_needs()
 elif prompt == "4":
-    print_time()
+    input("To start the stopwatch, please press 'Enter/ Return': ")
+    start_time = time.time()
+
+    print('Time is running....')
+    
+    input('To stop the stopwatch, please press "Return/ Enter": ')
+    stop_time = time.time()
+    print_start_time(stop_time - start_time)
 else:
     print("Invalid input")
