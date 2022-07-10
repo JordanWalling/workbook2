@@ -10,7 +10,7 @@ def print_time(total_seconds):
 input('Press Enter/Return key to start stopwatch: ')
 start_time = time.time()
 
-print('counting time...')
+print('Time is running....')
 
 input('Press Enter/Return key to stop the stopwatch: ')
 stop_time = time.time()
