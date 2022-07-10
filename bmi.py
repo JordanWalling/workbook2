@@ -3,7 +3,7 @@ def calculate_bmi():
     height = float(input("Please enter your height in metres: "))
     weight = float(input("Please enter your weight in kilograms: "))
     bmi = weight/height**2
-    print(f"Your BMI is: {bmi}")
+    print(f"Your BMI is: {round(bmi,2)}")
 
     if bmi <18.50:
         print("You are Underweight")
