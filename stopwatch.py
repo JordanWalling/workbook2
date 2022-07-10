@@ -7,12 +7,12 @@ def print_time(total_seconds):
     mins = int(total_mins % 60)
     print('Time spent: {}h: {}m: {}s'.format(hours, mins, seconds))
 
-input('Press Enter/Return key to start stopwatch: ')
-start_time = time.time()
+    
+    input('To start the Stopwatch, please press "Enter/Return": ')
+    start_time = time.time()
+    print('Time is running....')
 
-print('Time is running....')
+    input('To stop the Stopwatch, please press "Enter/Return": ')
+    stop_time = time.time()
 
-input('Press Enter/Return key to stop the stopwatch: ')
-stop_time = time.time()
-
-print_time(stop_time - start_time)
+    print_time(stop_time - start_time)
