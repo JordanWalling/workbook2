@@ -1,4 +1,5 @@
 from bmi import calculate_bmi
+from calorie_needs import calculate_calorie_needs
 from weight_converter import convert_weight
 from welcome_message import greet_message
 from stopwatch import print_time
@@ -13,7 +14,7 @@ if prompt == "1":
 elif prompt == "2":
     convert_weight()
 elif prompt == "3":
-    print("Calories needed")
+    calculate_calorie_needs()
 elif prompt == "4":
     print_time()
 else:
