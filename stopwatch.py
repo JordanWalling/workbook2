@@ -8,11 +8,14 @@ def print_time(total_seconds):
     print('Time spent: {}h: {}m: {}s'.format(hours, mins, seconds))
 
     
-    input('To start the Stopwatch, please press "Enter/Return": ')
-    start_time = time.time()
-    print('Time is running....')
+input('To start the Stopwatch, please press "Enter/Return": ')
+start_time = time.time()
 
-    input('To stop the Stopwatch, please press "Enter/Return": ')
-    stop_time = time.time()
+print('Time is running....')
 
-    print_time(stop_time - start_time)
+input('To stop the Stopwatch, please press "Enter/Return": ')
+stop_time = time.time()
+
+    
+
+print_time(stop_time - start_time)
