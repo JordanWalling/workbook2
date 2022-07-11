@@ -41,3 +41,10 @@ Depending on the users needs, they might want to either Lose, Maintain or Gain w
 3. Gain weight 
 
 Judging by what the user input whether its "1" to Maintain current weight, "2" to Lose weight or "3" to Gain weight, the weight calculator will present the required calories needed for their goals. The app will then close. 
+
+## #4 - Stopwatch
+---
+
+The last feature presented on the Health App is the Stopwatch. This can be accessed by entering the option "4" on the main.py page. Once "4" is entered, the user will be prompted "To start the stopwatch, please press 'Enter/Return':". The stopwatch will not start unless the Enter button is pressed. The stopwatch will start and will not stop until the Enter button is pressed again. The time will then be presented as:
+"Time spent: 0h: 0m: 0s"
+This feature is great so that the user can time how long it takes to perform an exercise, such as running a certain distance. At completion, the app will close. 
