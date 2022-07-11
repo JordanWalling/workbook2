@@ -39,3 +39,5 @@ Depending on the users needs, they might want to either Lose, Maintain or Gain w
 1. Maintain current weight 
 2. Lose weight 
 3. Gain weight 
+
+Judging by what the user input whether its "1" to Maintain current weight, "2" to Lose weight or "3" to Gain weight, the weight calculator will present the required calories needed for their goals. The app will then close. 
