@@ -8,10 +8,11 @@ from welcome_message import greet_message
 
 greet_message()
 print('Welcome to the Health App!')
+prompt = False
+while prompt == False or prompt != "1" or prompt != "2" or prompt != "3" or prompt != "4":
+    print('Please select an option: "1", "2", "3" or "4" ')
+    prompt = input('1.BMI \n2.Weight Converter \n3.Calories Needed \n4.Stopwatch\n')
 
-print('Please select an option: "1", "2", "3" or "4" ')
-prompt = input('1.BMI \n2.Weight Converter \n3.Calories Needed \n4.Stopwatch\n')
-while prompt != "1" or prompt != "2" or prompt != "3" or prompt != "4":
     if prompt == "1":
         calculate_bmi()
     elif prompt == "2":
