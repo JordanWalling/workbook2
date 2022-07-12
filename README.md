@@ -75,16 +75,16 @@ To run the Health App program, python needs to be installed from inside the term
 ## Implementation Plan
 --- 
 
-![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.30.43%20pm.png)
+![Overview of Health App](./screenshots/Screen%20Shot%202022-07-12%20at%204.30.43%20pm.png)
 
-![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.31.48%20pm.png)
+![Main Page](./screenshots/Screen%20Shot%202022-07-12%20at%204.31.48%20pm.png)
 
-![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.32.28%20pm.png)
+![Stopwatch](./screenshots/Screen%20Shot%202022-07-12%20at%204.32.28%20pm.png)
 
-![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.32.59%20pm.png)
+![Weight Converter](./screenshots/Screen%20Shot%202022-07-12%20at%204.32.59%20pm.png)
 
-![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.33.56%20pm.png)
+![Calories Needed](./screenshots/Screen%20Shot%202022-07-12%20at%204.33.56%20pm.png)
 
-![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.34.18%20pm.png)
+![BMI](./screenshots/Screen%20Shot%202022-07-12%20at%204.34.18%20pm.png)
 
-![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.34.49%20pm.png)
+![Welcome Message](./screenshots/Screen%20Shot%202022-07-12%20at%204.34.49%20pm.png)
