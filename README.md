@@ -71,3 +71,20 @@ The Terminal:
 The Terminal is required so that the Health App program can be run.
 Install python:
 To run the Health App program, python needs to be installed from inside the terminal. For assistance on how to download python on the terminal, go to [Real Python](https://realpython.com/installing-python/). 
+
+## Implementation Plan
+--- 
+
+![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.30.43%20pm.png)
+
+![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.31.48%20pm.png)
+
+![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.32.28%20pm.png)
+
+![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.32.59%20pm.png)
+
+![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.33.56%20pm.png)
+
+![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.34.18%20pm.png)
+
+![alt text](./screenshots/Screen%20Shot%202022-07-12%20at%204.34.49%20pm.png)
