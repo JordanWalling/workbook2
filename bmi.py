@@ -1,7 +1,11 @@
 def calculate_bmi():
+    height = False
+    weight = False
     print("To calculate your Body Mass Index or BMI, your height and weight is needed")
-    height = float(input("Please enter your height in metres: "))
-    weight = float(input("Please enter your weight in kilograms: "))
+    while height == False:
+        height = float(input("Please enter your height in metres: "))
+    while weight == False:
+        weight = float(input("Please enter your weight in kilograms: "))
     bmi = weight/height**2
     print(f"Your BMI is: {round(bmi,2)}")
 
